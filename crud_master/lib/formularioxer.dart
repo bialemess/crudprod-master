@@ -40,6 +40,12 @@ class _FormExerciseState extends State<FormExercise> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
+
+               Image.network(
+                      'https://img.freepik.com/vetores-gratis/ilustracao-do-conceito-de-login-movel_114360-135.jpg?w=2000',
+                      width: 150,
+                    ),
+              
               SizedBox(
                 height: 20,
               ),
