@@ -71,6 +71,7 @@ class _Lista extends State<Lista> {
       appBar: AppBar(title: const Text('Consulta de produtos')),
       body: Column(
         children: [
+          const SizedBox(height: 24),
           TextField(
             decoration: const InputDecoration(
                 labelText: "Buscar produto", border: OutlineInputBorder()),
